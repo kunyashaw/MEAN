@@ -1,0 +1,10 @@
+<p>
+  register works!
+</p>
+<label for="uname">用户名</label>
+<input type="text" id="uname" [(ngModel)]="uname" name="uname" placeholder="请输入用户名" />
+<br/>
+<label for="upwd">密码</label>
+<input type="password" id="upwd" [(ngModel)]="upwd" name="upwd" placeholder="请输入密码" />
+<br/>
+<button (click)="register()">注册</button>
