@@ -6,3 +6,7 @@ todo:
     1、调用bootstrap美化界面
     2、实现todobox相关功能
 
+##版本号:v0.2 (2018-5-10 23:49)
+1、实现todobox相关功能
+todo:
+    1、调用bootstrap美化界面

@@ -1,3 +1,10 @@
-<p>
-  todobox works!
-</p>
+<h2>请输入待做事项</h2>
+<input type="text" [(ngModel)]="nowInput" />
+<button (click)="addToList()">add</button>
+
+<ul>
+  <li *ngFor="let tmp of list;let myIndex=index">
+    <span>{{tmp.content}}</span>
+    <button (click)="deleteFromList(myIndex)">delete</button>
+  </li>
+</ul>
